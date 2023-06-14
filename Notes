@@ -1,0 +1,10 @@
+
+API Layer:
+
+Controller classes act as the API layer that controls the GET,PUT, Post etc Request
+They automatically instantiate their own service class that is responsible for the business logic
+Mapping Functions call their own service call to do the logic for them
+
+Service Layer:
+Handles the business logic and makes the call to database and returns information
+Will a function called for each request type
